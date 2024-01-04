@@ -762,6 +762,9 @@ private:
 	// found in menus_settings.cpp
 	void RenderSettingsDDNet(CUIRect MainView);
 	void RenderSettingsAppearance(CUIRect MainView);
+	void RenderSettingsXEClient(CUIRect MainView);
+	void RenderSettingsXEBot(CUIRect MainView);
+	void RenderSettingsXEProfiles(CUIRect MainView);
 	ColorHSLA RenderHSLScrollbars(CUIRect *pRect, unsigned int *pColor, bool Alpha = false, bool ClampedLight = false);
 
 	CServerProcess m_ServerProcess;
