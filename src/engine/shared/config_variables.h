@@ -682,3 +682,7 @@ MACRO_CONFIG_INT(ClVideoRecorderFPS, cl_video_recorder_fps, 60, 1, 1000, CFGFLAG
 /*
  * Add config variables for mods below this comment to avoid merge conflicts.
  */
+
+
+// 秀儿
+MACRO_CONFIG_INT(XEAimBot, xe_aimbot, 0, 0, 1, CFGFLAG_SAVE | CFGFLAG_CLIENT, "自动瞄准")
